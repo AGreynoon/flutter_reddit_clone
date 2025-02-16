@@ -69,6 +69,14 @@ This project follows a **Clean Architecture** approach tailored for **Riverpod**
 ```
 lib/
 ├── core/                     # Common utilities, themes, error handling, etc.
+|   ├── common/
+|   ├── constants/
+|   ├── enums/
+|   ├── providers/
+|   ├── responsive/
+|   ├── models/               # Shared models
+|   ├── routers/              # App navigation setup
+|   ├── themes/               # Theme and styling
 ├── features/                 # Feature-based modules
 │   ├── auth/                 # Authentication feature
 │   │   ├── controllers/      # State management controllers
@@ -90,9 +98,6 @@ lib/
 │   │   ├── controllers/
 │   │   ├── data/
 │   │   ├── presentation/
-├── models/                   # Shared models
-├── router/                   # App navigation setup
-├── theme/                    # Theme and styling
 ├── main.dart                 # Entry point
 ```
 
